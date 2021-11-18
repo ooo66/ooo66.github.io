@@ -80,6 +80,19 @@
     
     
     <entry>
+      <title>vlan和trunk的交换机配置</title>
+      <link href="/tmy/3de94071.html"/>
+      <url>/tmy/3de94071.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://imgtu.com/i/IofnqP"><img src="https://z3.ax1x.com/2021/11/18/IofnqP.png" alt="IofnqP.png"></a></p><p>Switch1&gt;en //特权模式</p><p>Switch1#conf t //全局模式</p><p>Switch1(config)#vlan 3  //创建vlan 3</p><p>Switch1(config-vlan)#exit  //退出</p><p>Switch1(config)#int f0/2  进入0/2端口</p><p>Switch1(config-if)#switchport access vlan 3  将0/2端口放入vlan 3中</p><p>Switch1(config-if)#exit //退出</p><p>Switch1(config)#int f0/3  //进入0/3端口</p><p>Switch1(config-if)#switchport mode trunk  //将0/3端口设置为trunk口</p><p>Switch1(config-if)#switchport trunk allowed vlan all //允许所有vlan信号通过</p><p>Switch1和Switch2配置相同</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux汇总</title>
       <link href="/tmy/62da4714.html"/>
       <url>/tmy/62da4714.html</url>
