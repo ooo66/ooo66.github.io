@@ -55,6 +55,31 @@
     
     
     <entry>
+      <title>一个交换机的VLAN</title>
+      <link href="/tmy/f70a2aa8.html"/>
+      <url>/tmy/f70a2aa8.html</url>
+      
+        <content type="html"><![CDATA[<p><img src="https://z3.ax1x.com/2021/11/18/IIbSXQ.png"></p><p>Switch&gt;en //用户模式</p><p>Switch#conf t //全局模式</p><p>Switch(config)#interface vlan 1 //进入vlan 1</p><p>Switch(config-if)#ip address 192.168.1.1 255.255.255.0 //配置IP</p><p>Switch(config-if)#no shutdown 开启端口</p><p>Switch(config-if)#exit //退出</p><p>Switch(config)#enable password co123  //</p><p>Switch(config)#line vty 0 4  //为Telent用户设置0-4共五条线路</p><p>Switch(config-line)#password te123  //设置远程登陆密码</p><p>Switch(config-line)#login  //使密码生效</p><p>Switch(config-line)#login local  //设置本地登陆</p><p>Switch(config-line)#exit</p><p>Switch(config)#username abc password us123  //设置本地账户和密码</p><p>Switch#write </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 思科练习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Linux汇总</title>
       <link href="/tmy/62da4714.html"/>
       <url>/tmy/62da4714.html</url>
