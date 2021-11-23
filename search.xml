@@ -4,19 +4,6 @@
   
     
     <entry>
-      <title>Hello World123</title>
-      <link href="/tmy/abcd.html"/>
-      <url>/tmy/abcd.html</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://imgtu.com/i/opY3uR"><img src="https://z3.ax1x.com/2021/11/23/opY3uR.png" alt="opY3uR.png"></a></p><p>SW1</p><p><a href="https://imgtu.com/i/opaHOJ"><img src="https://z3.ax1x.com/2021/11/23/opaHOJ.png" alt="opaHOJ.png"></a></p><p><a href="https://imgtu.com/i/opajFx"><img src="https://z3.ax1x.com/2021/11/23/opajFx.png" alt="opajFx.png"></a></p><p><a href="https://imgtu.com/i/opdVtP"><img src="https://z3.ax1x.com/2021/11/23/opdVtP.png" alt="opdVtP.png"></a></p><p>SW2</p><p><a href="https://imgtu.com/i/opdGt0"><img src="https://z3.ax1x.com/2021/11/23/opdGt0.png" alt="opdGt0.png"></a></p><p><a href="https://imgtu.com/i/opdUcF"><img src="https://z3.ax1x.com/2021/11/23/opdUcF.png" alt="opdUcF.png"></a></p><p><a href="https://imgtu.com/i/opdB7R"><img src="https://z3.ax1x.com/2021/11/23/opdB7R.png" alt="opdB7R.png"></a></p><p>测试SW1和sw2联通情况</p><p><a href="https://imgtu.com/i/opdIAI"><img src="https://z3.ax1x.com/2021/11/23/opdIAI.png" alt="opdIAI.png"></a></p>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>数学公式</title>
       <link href="/tmy/3d3518c5.html"/>
       <url>/tmy/3d3518c5.html</url>
@@ -81,6 +68,44 @@
     
     
     <entry>
+      <title>Telnet配置</title>
+      <link href="/tmy/e091f1a7.html"/>
+      <url>/tmy/e091f1a7.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://imgtu.com/i/opY3uR"><img src="https://z3.ax1x.com/2021/11/23/opY3uR.png" alt="opY3uR.png"></a></p><p>SW1</p><p><a href="https://imgtu.com/i/opaHOJ"><img src="https://z3.ax1x.com/2021/11/23/opaHOJ.png" alt="opaHOJ.png"></a></p><p><a href="https://imgtu.com/i/opajFx"><img src="https://z3.ax1x.com/2021/11/23/opajFx.png" alt="opajFx.png"></a></p><p><a href="https://imgtu.com/i/opdVtP"><img src="https://z3.ax1x.com/2021/11/23/opdVtP.png" alt="opdVtP.png"></a></p><p>SW2</p><p><a href="https://imgtu.com/i/opdGt0"><img src="https://z3.ax1x.com/2021/11/23/opdGt0.png" alt="opdGt0.png"></a></p><p><a href="https://imgtu.com/i/opdUcF"><img src="https://z3.ax1x.com/2021/11/23/opdUcF.png" alt="opdUcF.png"></a></p><p><a href="https://imgtu.com/i/opdB7R"><img src="https://z3.ax1x.com/2021/11/23/opdB7R.png" alt="opdB7R.png"></a></p><p>测试SW1和sw2联通情况</p><p><a href="https://imgtu.com/i/opdIAI"><img src="https://z3.ax1x.com/2021/11/23/opdIAI.png" alt="opdIAI.png"></a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 华为练习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 华为练习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>vlan和trunk的交换机配置</title>
+      <link href="/tmy/3de94071.html"/>
+      <url>/tmy/3de94071.html</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://imgtu.com/i/IofnqP"><img src="https://z3.ax1x.com/2021/11/18/IofnqP.png" alt="IofnqP.png"></a></p><p>Switch1&gt;en //特权模式</p><p>Switch1#conf t //全局模式</p><p>Switch1(config)#vlan 3  //创建vlan 3</p><p>Switch1(config-vlan)#exit  //退出</p><p>Switch1(config)#int f0/2  进入0/2端口</p><p>Switch1(config-if)#switchport access vlan 3  将0/2端口放入vlan 3中</p><p>Switch1(config-if)#exit //退出</p><p>Switch1(config)#int f0/3  //进入0/3端口</p><p>Switch1(config-if)#switchport mode trunk  //将0/3端口设置为trunk口</p><p>Switch1(config-if)#switchport trunk allowed vlan all //允许所有vlan信号通过</p><p>Switch1和Switch2配置相同</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>一个交换机的VLAN</title>
       <link href="/tmy/f70a2aa8.html"/>
       <url>/tmy/f70a2aa8.html</url>
@@ -100,19 +125,6 @@
             <tag> 计算机 </tag>
             
         </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>vlan和trunk的交换机配置</title>
-      <link href="/tmy/3de94071.html"/>
-      <url>/tmy/3de94071.html</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://imgtu.com/i/IofnqP"><img src="https://z3.ax1x.com/2021/11/18/IofnqP.png" alt="IofnqP.png"></a></p><p>Switch1&gt;en //特权模式</p><p>Switch1#conf t //全局模式</p><p>Switch1(config)#vlan 3  //创建vlan 3</p><p>Switch1(config-vlan)#exit  //退出</p><p>Switch1(config)#int f0/2  进入0/2端口</p><p>Switch1(config-if)#switchport access vlan 3  将0/2端口放入vlan 3中</p><p>Switch1(config-if)#exit //退出</p><p>Switch1(config)#int f0/3  //进入0/3端口</p><p>Switch1(config-if)#switchport mode trunk  //将0/3端口设置为trunk口</p><p>Switch1(config-if)#switchport trunk allowed vlan all //允许所有vlan信号通过</p><p>Switch1和Switch2配置相同</p>]]></content>
-      
-      
       
     </entry>
     
