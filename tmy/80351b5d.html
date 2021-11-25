@@ -14,7 +14,7 @@ SW2的配置
 pc1可以拼通pc2    拼不通pc3 pc4
 pc3可以拼通pc4     拼不通pc1 pc 2
 成功
-">
+12345678910111213141516171819202122232425">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -384,14 +384,14 @@ pc3可以拼通pc4     拼不通pc1 pc 2
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    37
+                    480
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    2 分
                 </div>
                 
 
@@ -420,6 +420,10 @@ pc3可以拼通pc4     拼不通pc1 pc 2
 <p>pc1可以拼通pc2    拼不通pc3 pc4</p>
 <p>pc3可以拼通pc4     拼不通pc1 pc 2</p>
 <p>成功</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">&lt;Huawei&gt;language-mode Chinese    //改变语言模式</span><br><span class="line">Change language mode, confirm? [Y/N] y</span><br><span class="line">提示：改变语言模式成功。</span><br><span class="line">&lt;Huawei&gt;sys</span><br><span class="line">进入系统视图，键入Ctrl+Z退回到用户视图。</span><br><span class="line">[Huawei]undo info-center <span class="built_in">enable</span>   //关闭信息中心</span><br><span class="line">提示：信息中心被关闭。</span><br><span class="line">[Huawei]sysname SW1   //命名为SW1</span><br><span class="line">[SW1]vlan 2  //进入vlan 2</span><br><span class="line">[SW1-vlan2]q  //退出	 	</span><br><span class="line">[SW1]interface Vlanif 2    //进入vlan 2</span><br><span class="line">[SW1-Vlanif2]ip address 192.168.1.1 24    //配置ip</span><br><span class="line">[SW1-Vlanif2]q  //退出</span><br><span class="line">[SW1]int g0/0/1    //进入0/0/1端口</span><br><span class="line">[SW1-GigabitEthernet0/0/1]port link-type trunk	   //将0/0/1口设置为trunk口</span><br><span class="line">[SW1-GigabitEthernet0/0/1]port trunk pvid vlan 2	 </span><br><span class="line">[SW1-GigabitEthernet0/0/1]port trunk allow-pass vlan all</span><br><span class="line">[SW1-GigabitEthernet0/0/1]q</span><br><span class="line">[SW1]user-interface vty 0 4  //进入虚拟用户终端</span><br><span class="line">[SW1-ui-vty0-4]authentication-mode password   //设置认证模式为密码认证	</span><br><span class="line">[SW1-ui-vty0-4]<span class="built_in">set</span> authentication password cipher 123   //设置密码为密文密码 123	</span><br><span class="line">[SW1-ui-vty0-4]user privilege level 3  设置用户权限级别为3</span><br><span class="line">[SW1-ui-vty0-4]q</span><br><span class="line">[SW1]save</span><br><span class="line">保存配置成功。</span><br><span class="line"></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">&lt;Huawei&gt;language-mode Chinese </span><br><span class="line">Change language mode, confirm? [Y/N] y</span><br><span class="line">提示：改变语言模式成功。</span><br><span class="line">&lt;Huawei&gt;sys</span><br><span class="line">进入系统视图，键入Ctrl+Z退回到用户视图。</span><br><span class="line">[Huawei]undo info-center enable</span><br><span class="line">提示：信息中心被关闭。</span><br><span class="line">[Huawei]sysname SW2</span><br><span class="line">[SW2]vlan 2</span><br><span class="line">[SW2-vlan2]q</span><br><span class="line">[SW2]interface Vlanif 2</span><br><span class="line">[SW2-Vlanif2]ip address 192.168.1.2 24</span><br><span class="line">[SW2-Vlanif2]q	</span><br><span class="line">[SW2]interface g0/0/1	</span><br><span class="line">[SW2-GigabitEthernet0/0/1]port link-type trunk</span><br><span class="line">[SW2-GigabitEthernet0/0/1]port trunk pvid vlan 2	</span><br><span class="line">[SW2-GigabitEthernet0/0/1]port trunk allow-pass vlan all</span><br><span class="line">[SW2-GigabitEthernet0/0/1]q</span><br><span class="line">[SW2]user-interface vty 0 4</span><br><span class="line">[SW2-ui-vty0-4]authentication-mode aaa</span><br><span class="line">[SW2-ui-vty0-4]user privilege level 3</span><br><span class="line">[SW2-ui-vty0-4]q</span><br><span class="line">[SW2]aaa</span><br><span class="line">[SW2-aaa]local-user 147 password cipher 123abc privilege level 3</span><br><span class="line">提示：添加了一个新用户。	</span><br><span class="line">[SW2-aaa]local-user 147 service-type telnet </span><br><span class="line">[SW2-aaa]q</span><br><span class="line">[SW2]q</span><br><span class="line">&lt;SW2&gt;save</span><br><span class="line">保存配置成功。</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
 
                 
             </div>
